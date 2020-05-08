@@ -1,0 +1,16 @@
+[package]
+name = "neural_net"
+version = "0.1.0"
+authors = ["Lone-coder <abhijithcheruvery@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+build = "build.rs"
+
+[dependencies]
+rand = "0.7.3"
+
+[dependencies.sdl2]
+version="0.33.0"
+default-features=false
+features=["image","ttf","unsafe_textures"]
